@@ -1,0 +1,20 @@
+<QuestionForm xmlns='http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd'>  
+    <Question>
+    <QuestionIdentifier>Qualification</QuestionIdentifier>
+    <DisplayName>Qualification</DisplayName>
+    <IsRequired>true</IsRequired>
+    <QuestionContent>
+      <Text>
+		You are invited to take part in an online experiment. At 2:30PM Eastern Daylight Time (EDT) today we will host an interactive, ~35 minute HIT.  The base pay is US Dollars (USD) 3.50 with bonus payments between USD 0 and USD 8 (average of around USD 4). If you are interested, you will be granted a qualification and notified when the HIT is about to begin.  The first 10 participants who enter the HIT at 2:30PM will proceed. If you are interested, please type iwltp_100 in the box below.
+      </Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer>
+        <Constraints>
+          <Length minLength="1" maxLength="100" />
+        </Constraints>
+        <DefaultText></DefaultText>
+      </FreeTextAnswer>
+    </AnswerSpecification>
+	</Question>
+</QuestionForm>
